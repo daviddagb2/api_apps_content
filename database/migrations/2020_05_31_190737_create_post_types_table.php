@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddExtraFieldsToUsersTable extends Migration
+class CreatePostTypesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,19 @@ class AddExtraFieldsToUsersTable extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
+        Schema::create('post_types', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('icon')->nullable();
+            $table->boolean('active')->default(true);
+            $table->timestamps();
         });
 
         Artisan::call( 'db:seed', [
-            '--class' => 'UsersTableSeeder',
+            '--class' => 'PostTypeTableSeeder',
             '--force' => true ]
         );
+
     }
 
     /**
@@ -30,8 +35,6 @@ class AddExtraFieldsToUsersTable extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
-        });
+        Schema::dropIfExists('post_types');
     }
 }
