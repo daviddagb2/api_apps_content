@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    API APPS CONTENT
                 </div>
 
                 <div class="links">
