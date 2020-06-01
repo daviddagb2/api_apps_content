@@ -17,9 +17,12 @@ class CreateCountriesTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('prefix');
+            $table->string('iso_code')->nullable();
             $table->string('country_code', 10);
+            $table->integer('orderb')->default(1);
             $table->boolean('active')->default(true);
             $table->timestamps();
+            
         });
 
 

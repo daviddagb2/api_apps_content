@@ -21,11 +21,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NIC', 
                 'country_code' => '+505',
                 'iso_code' => 'NI',
-                'order' => '1',
+                'orderb' => '1',
                 'active' => true
             ]);
         }else{
-            $nic->order = 1;
+            $nic->orderb = 1;
             $nic->iso_code = 'NI';
             $nic->save();
         }
@@ -38,12 +38,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'Mexico', 
                 'prefix' => 'MEX', 
                 'country_code' => '+52',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'MX',
                 'active' => true
             ]);
         }else{
-            $mx->order = 2;
+            $mx->orderb = 2;
             $mx->iso_code = 'MX';
             $mx->save();
         }
@@ -56,12 +56,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'United States', 
                 'prefix' => 'USA', 
                 'country_code' => '+1',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'US',
                 'active' => true
             ]);
         }else{
-            $usa->order = 2;
+            $usa->orderb = 2;
             $usa->iso_code = 'US';
             $usa->save();
         }
@@ -76,11 +76,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'AFG', 
                 'country_code' => '+93',
                 'iso_code' => 'AF',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AF';
             $countryfind->save();
         }
@@ -93,11 +93,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ALB', 
                 'country_code' => '+355',
                 'iso_code' => 'AL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AL';
             $countryfind->save();
         }
@@ -110,11 +110,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'DZA', 
                 'country_code' => '+213',
                 'iso_code' => 'DZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'DZ';
             $countryfind->save();
         }
@@ -126,12 +126,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'American Samoa', 
                 'prefix' => 'DZA', 
                 'country_code' => '+1-684',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'AS',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AS';
             $countryfind->save();
         }
@@ -144,11 +144,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'AND', 
                 'country_code' => '+376',
                 'iso_code' => 'AD',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AD';
             $countryfind->save();
         }
@@ -160,12 +160,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'Angola', 
                 'prefix' => 'AGO', 
                 'country_code' => '+244',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'AO',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AO';
             $countryfind->save();
         }
@@ -178,11 +178,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'AIA', 
                 'country_code' => '+1-264',
                 'iso_code' => 'AI',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AI';
             $countryfind->save();
         }
@@ -194,11 +194,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ATA', 
                 'country_code' => '+672',
                 'iso_code' => 'AQ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AQ';
             $countryfind->save();
         }
@@ -211,11 +211,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ATG', 
                 'country_code' => '+1-268',
                 'iso_code' => 'AG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AG';
             $countryfind->save();
         }
@@ -228,11 +228,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ARG', 
                 'country_code' => '+54',
                 'iso_code' => 'AR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AR';
             $countryfind->save();
         }
@@ -245,11 +245,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ARM', 
                 'country_code' => '+374',
                 'iso_code' => 'AM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AM';
             $countryfind->save();
         }
@@ -261,11 +261,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ABW', 
                 'country_code' => '+297',
                 'iso_code' => 'AW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AW';
             $countryfind->save();
         }
@@ -278,11 +278,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'AUS', 
                 'country_code' => '+61',
                 'iso_code' => 'AU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AU';
             $countryfind->save();
         }
@@ -295,11 +295,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'AUT', 
                 'country_code' => '+43',
                 'iso_code' => 'AT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AT';
             $countryfind->save();
         }
@@ -312,11 +312,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'AZE',
                 'country_code' => '+994',
                 'iso_code' => 'AZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AZ';
             $countryfind->save();
         }
@@ -328,11 +328,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BHS', 
                 'country_code' => '+1-242',
                 'iso_code' => 'BS',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BS';
             $countryfind->save();
         }
@@ -344,11 +344,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BHR', 
                 'country_code' => '+973',
                 'iso_code' => 'BH',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BH';
             $countryfind->save();
         }
@@ -361,11 +361,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BGD', 
                 'country_code' => '+880',
                 'iso_code' => 'BD',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BD';
             $countryfind->save();
         }
@@ -378,11 +378,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BRB', 
                 'country_code' => '+1-246',
                 'iso_code' => 'BB',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BB';
             $countryfind->save();
         }
@@ -395,11 +395,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BLR', 
                 'country_code' => '+375',
                 'iso_code' => 'BY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BY';
             $countryfind->save();
         }
@@ -412,11 +412,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BEL', 
                 'country_code' => '+32',
                 'iso_code' => 'BE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BE';
             $countryfind->save();
         }
@@ -429,11 +429,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BLZ', 
                 'country_code' => '+501',
                 'iso_code' => 'BZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BZ';
             $countryfind->save();
         }
@@ -446,11 +446,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BEN', 
                 'country_code' => '+229',
                 'iso_code' => 'BJ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BJ';
             $countryfind->save();
         }
@@ -463,11 +463,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BMU', 
                 'country_code' => '+1-441',
                 'iso_code' => 'BM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BM';
             $countryfind->save();
         }
@@ -480,11 +480,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BTN', 
                 'country_code' => '+975',
                 'iso_code' => 'BT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BT';
             $countryfind->save();
         }
@@ -497,11 +497,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BOL', 
                 'country_code' => '+591',
                 'iso_code' => 'BO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BO';
             $countryfind->save();
         }
@@ -514,11 +514,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BIH', 
                 'country_code' => '+387',
                 'iso_code' => 'BA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BA';
             $countryfind->save();
         }
@@ -531,11 +531,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BWA', 
                 'country_code' => '+267',
                 'iso_code' => 'BW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BW';
             $countryfind->save();
         }
@@ -548,11 +548,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BRA', 
                 'country_code' => '+55',
                 'iso_code' => 'BR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BR';
             $countryfind->save();
         }
@@ -565,11 +565,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'IOT', 
                 'country_code' => '+246',
                 'iso_code' => 'IO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IO';
             $countryfind->save();
         }
@@ -582,11 +582,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'VGB', 
                 'country_code' => '+1-284',
                 'iso_code' => 'VG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'VG';
             $countryfind->save();
         }
@@ -600,11 +600,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BRN', 
                 'country_code' => '+673',
                 'iso_code' => 'BN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BN';
             $countryfind->save();
         }
@@ -617,11 +617,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BGR', 
                 'country_code' => '+359',
                 'iso_code' => 'BG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BG';
             $countryfind->save();
         }
@@ -634,11 +634,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BFA', 
                 'country_code' => '+226',
                 'iso_code' => 'BF',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BF';
             $countryfind->save();
         }
@@ -651,11 +651,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BDI', 
                 'country_code' => '+257',
                 'iso_code' => 'BI',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BI';
             $countryfind->save();
         }
@@ -668,11 +668,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'KHM', 
                 'country_code' => '+855',
                 'iso_code' => 'KH',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KH';
             $countryfind->save();
         }
@@ -685,11 +685,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CMR', 
                 'country_code' => '+237',
                 'iso_code' => 'CM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CM';
             $countryfind->save();
         }
@@ -702,11 +702,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CAN', 
                 'country_code' => '+1',
                 'iso_code' => 'CA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CA';
             $countryfind->save();
         }
@@ -719,11 +719,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CPV', 
                 'country_code' => '+238',
                 'iso_code' => 'CV',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CV';
             $countryfind->save();
         }
@@ -736,11 +736,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CYM', 
                 'country_code' => '+1-345',
                 'iso_code' => 'KY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KY';
             $countryfind->save();
         }
@@ -753,11 +753,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CAF', 
                 'country_code' => '+236',
                 'iso_code' => 'CF',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CF';
             $countryfind->save();
         }
@@ -770,11 +770,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TCD', 
                 'country_code' => '+235',
                 'iso_code' => 'TD',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TD';
             $countryfind->save();
         }
@@ -787,11 +787,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CHL', 
                 'country_code' => '+56',
                 'iso_code' => 'CL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CL';
             $countryfind->save();
         }
@@ -804,11 +804,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CHN', 
                 'country_code' => '+86',
                 'iso_code' => 'CN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CN';
             $countryfind->save();
         }
@@ -820,11 +820,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CXR', 
                 'country_code' => '+61',
                 'iso_code' => 'CX',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CX';
             $countryfind->save();
         }
@@ -836,11 +836,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CCK', 
                 'country_code' => '+61',
                 'iso_code' => 'CC',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CC';
             $countryfind->save();
         }
@@ -853,11 +853,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'COL', 
                 'country_code' => '+57',
                 'iso_code' => 'CO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CO';
             $countryfind->save();
         }
@@ -870,11 +870,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'COM', 
                 'country_code' => '+269',
                 'iso_code' => 'KM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KM';
             $countryfind->save();
         }
@@ -887,11 +887,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'COK', 
                 'country_code' => '+682',
                 'iso_code' => 'CK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CK';
             $countryfind->save();
         }
@@ -904,11 +904,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CRI', 
                 'country_code' => '+506',
                 'iso_code' => 'CR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CR';
             $countryfind->save();
         }
@@ -921,11 +921,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'HRV', 
                 'country_code' => '+385',
                 'iso_code' => 'HR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'HR';
             $countryfind->save();
         }
@@ -938,11 +938,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CUB', 
                 'country_code' => '+53',
                 'iso_code' => 'CU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CU';
             $countryfind->save();
         }
@@ -955,11 +955,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CUW', 
                 'country_code' => '+599',
                 'iso_code' => 'CW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CW';
             $countryfind->save();
         }
@@ -972,11 +972,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CYP', 
                 'country_code' => '+357',
                 'iso_code' => 'CY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CY';
             $countryfind->save();
         }
@@ -989,11 +989,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CZE', 
                 'country_code' => '+420',
                 'iso_code' => 'CZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CZ';
             $countryfind->save();
         }
@@ -1006,11 +1006,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'COD', 
                 'country_code' => '+243',
                 'iso_code' => 'CD',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CD';
             $countryfind->save();
         }
@@ -1023,11 +1023,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'DNK', 
                 'country_code' => '+45',
                 'iso_code' => 'DK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'DK';
             $countryfind->save();
         }
@@ -1040,11 +1040,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'DJI', 
                 'country_code' => '+253',
                 'iso_code' => 'DJ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'DJ';
             $countryfind->save();
         }
@@ -1057,11 +1057,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'DMA', 
                 'country_code' => '+1-767',
                 'iso_code' => 'DM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'DM';
             $countryfind->save();
         }
@@ -1074,11 +1074,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'DOM', 
                 'country_code' => '+1-809',
                 'iso_code' => 'DO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'DO';
             $countryfind->save();
         }
@@ -1090,7 +1090,7 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'DOM', 
                 'country_code' => '+1-829',
                 'iso_code' => 'DO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
 
@@ -1098,12 +1098,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'Dominican Republic', 
                 'prefix' => 'DOM', 
                 'country_code' => '+1-849',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'DO',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'DO';
             $countryfind->save();
         }
@@ -1116,11 +1116,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TLS', 
                 'country_code' => '+670',
                 'iso_code' => 'TL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TL';
             $countryfind->save();
         }
@@ -1133,11 +1133,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ECU', 
                 'country_code' => '+593',
                 'iso_code' => 'EC',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'EC';
             $countryfind->save();
         }
@@ -1150,11 +1150,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'EGY', 
                 'country_code' => '+20',
                 'iso_code' => 'EG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'EG';
             $countryfind->save();
         }
@@ -1168,11 +1168,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SLV', 
                 'country_code' => '+503',
                 'iso_code' => 'SV',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SV';
             $countryfind->save();
         }
@@ -1186,11 +1186,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GNQ', 
                 'country_code' => '+240',
                 'iso_code' => 'GQ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GQ';
             $countryfind->save();
         }
@@ -1203,11 +1203,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ERI', 
                 'country_code' => '+291',
                 'iso_code' => 'ER',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ER';
             $countryfind->save();
         }
@@ -1220,11 +1220,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'EST', 
                 'country_code' => '+372',
                 'iso_code' => 'EE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'EE';
             $countryfind->save();
         }
@@ -1236,11 +1236,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ETH', 
                 'country_code' => '+251',
                 'iso_code' => 'ET',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ET';
             $countryfind->save();
         }
@@ -1253,11 +1253,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'FLK', 
                 'country_code' => '+500',
                 'iso_code' => 'FK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'FK';
             $countryfind->save();
         }
@@ -1270,11 +1270,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'FRO', 
                 'country_code' => '+298',
                 'iso_code' => 'FO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'FO';
             $countryfind->save();
         }
@@ -1287,11 +1287,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'FJI', 
                 'country_code' => '+679',
                 'iso_code' => 'FJ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'FJ';
             $countryfind->save();
         }
@@ -1304,11 +1304,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'FIN', 
                 'country_code' => '+358',
                 'iso_code' => 'FI',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'FI';
             $countryfind->save();
         }
@@ -1321,11 +1321,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'FRA', 
                 'country_code' => '+33',
                 'iso_code' => 'FR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'FR';
             $countryfind->save();
         }
@@ -1338,11 +1338,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PYF', 
                 'country_code' => '+689',
                 'iso_code' => 'PF',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PF';
             $countryfind->save();
         }
@@ -1355,11 +1355,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GAB', 
                 'country_code' => '+241',
                 'iso_code' => 'GA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GA';
             $countryfind->save();
         }
@@ -1372,11 +1372,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GMB', 
                 'country_code' => '+220',
                 'iso_code' => 'GM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GM';
             $countryfind->save();
         }
@@ -1389,11 +1389,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GEO', 
                 'country_code' => '+995',
                 'iso_code' => 'GE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GE';
             $countryfind->save();
         }
@@ -1406,11 +1406,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'DEU', 
                 'country_code' => '+49',
                 'iso_code' => 'DE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'DE';
             $countryfind->save();
         }
@@ -1422,12 +1422,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'Ghana', 
                 'prefix' => 'GHA', 
                 'country_code' => '+233',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'GH',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GH';
             $countryfind->save();
         }
@@ -1439,12 +1439,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'Gibraltar', 
                 'prefix' => 'GIB', 
                 'country_code' => '+350',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'GI',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GI';
             $countryfind->save();
         }
@@ -1457,11 +1457,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GRC', 
                 'country_code' => '+30',
                 'iso_code' => 'GR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GR';
             $countryfind->save();
         }
@@ -1474,11 +1474,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GRL', 
                 'country_code' => '+299',
                 'iso_code' => 'GL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GL';
             $countryfind->save();
         }
@@ -1491,11 +1491,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GRD', 
                 'country_code' => '+1-473',
                 'iso_code' => 'GD',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GD';
             $countryfind->save();
         }
@@ -1508,11 +1508,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GUM', 
                 'country_code' => '+1-671',
                 'iso_code' => 'GU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GU';
             $countryfind->save();
         }
@@ -1525,11 +1525,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GTM', 
                 'country_code' => '+502',
                 'iso_code' => 'GT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GT';
             $countryfind->save();
         }
@@ -1542,11 +1542,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GGY', 
                 'country_code' => '+44-1481',
                 'iso_code' => 'GG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GG';
             $countryfind->save();
         }
@@ -1559,11 +1559,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GIN', 
                 'country_code' => '+224',
                 'iso_code' => 'GN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GN';
             $countryfind->save();
         }
@@ -1576,11 +1576,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GNB', 
                 'country_code' => '+245',
                 'iso_code' => 'GW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GW';
             $countryfind->save();
         }
@@ -1593,11 +1593,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GUY', 
                 'country_code' => '+592',
                 'iso_code' => 'GY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GY';
             $countryfind->save();
         }
@@ -1610,11 +1610,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'HTI', 
                 'country_code' => '+509',
                 'iso_code' => 'HT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'HT';
             $countryfind->save();
         }
@@ -1627,11 +1627,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'HND', 
                 'country_code' => '+504',
                 'iso_code' => 'HN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'HN';
             $countryfind->save();
         }
@@ -1644,11 +1644,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'HKG', 
                 'country_code' => '+852',
                 'iso_code' => 'HK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'HK';
             $countryfind->save();
         }
@@ -1661,11 +1661,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'HUN', 
                 'country_code' => '+36',
                 'iso_code' => 'HU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'HU';
             $countryfind->save();
         }
@@ -1678,11 +1678,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ISL', 
                 'country_code' => '+354',
                 'iso_code' => 'IS',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IS';
             $countryfind->save();
         }
@@ -1695,11 +1695,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'IND', 
                 'country_code' => '+91',
                 'iso_code' => 'IN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IN';
             $countryfind->save();
         }
@@ -1712,11 +1712,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'IDN', 
                 'country_code' => '+62',
                 'iso_code' => 'ID',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ID';
             $countryfind->save();
         }
@@ -1729,11 +1729,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'IRN', 
                 'country_code' => '+98',
                 'iso_code' => 'IR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IR';
             $countryfind->save();
         }
@@ -1746,11 +1746,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'IRQ', 
                 'country_code' => '+964',
                 'iso_code' => 'IQ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IQ';
             $countryfind->save();
         }
@@ -1763,11 +1763,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'IRL', 
                 'country_code' => '+353',
                 'iso_code' => 'IE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IE';
             $countryfind->save();
         }
@@ -1779,11 +1779,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'IMN', 
                 'country_code' => '+44-1624',
                 'iso_code' => 'IM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IM';
             $countryfind->save();
         }
@@ -1796,11 +1796,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ISR', 
                 'country_code' => '+972',
                 'iso_code' => 'IL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IL';
             $countryfind->save();
         }
@@ -1814,11 +1814,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ITA', 
                 'country_code' => '+39',
                 'iso_code' => 'IT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]); 
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'IT';
             $countryfind->save();
         }
@@ -1831,11 +1831,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CIV', 
                 'country_code' => '+225',
                 'iso_code' => 'CI',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CI';
             $countryfind->save();
         }
@@ -1847,12 +1847,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'Jamaica', 
                 'prefix' => 'JAM', 
                 'country_code' => '+1-876',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'JM',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'JM';
             $countryfind->save();
         }
@@ -1865,11 +1865,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'JPN', 
                 'country_code' => '+81',
                 'iso_code' => 'JP',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'JP';
             $countryfind->save();
         }
@@ -1882,11 +1882,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'JEY', 
                 'country_code' => '+44-1534',
                 'iso_code' => 'JE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'JE';
             $countryfind->save();
         }
@@ -1899,11 +1899,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'JOR', 
                 'country_code' => '+962',
                 'iso_code' => 'JO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'JO';
             $countryfind->save();
         }
@@ -1916,11 +1916,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'KAZ', 
                 'country_code' => '+7',
                 'iso_code' => 'KZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KZ';
             $countryfind->save();
         }
@@ -1933,11 +1933,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'KEN', 
                 'country_code' => '+254',
                 'iso_code' => 'KE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KE';
             $countryfind->save();
         }
@@ -1950,11 +1950,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'KIR', 
                 'country_code' => '+686',
                 'iso_code' => 'KI',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KI';
             $countryfind->save();
         }
@@ -1967,11 +1967,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'XKX', 
                 'country_code' => '+383',
                 'iso_code' => 'XK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'XK';
             $countryfind->save();
         }
@@ -1984,11 +1984,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'KWT', 
                 'country_code' => '+965',
                 'iso_code' => 'KW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KW';
             $countryfind->save();
         }
@@ -2001,11 +2001,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'KGZ', 
                 'country_code' => '+996',
                 'iso_code' => 'KG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KG';
             $countryfind->save();
         }
@@ -2018,11 +2018,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LAO', 
                 'country_code' => '+856',
                 'iso_code' => 'LA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LA';
             $countryfind->save();
         }
@@ -2035,11 +2035,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LVA', 
                 'country_code' => '+371',
                 'iso_code' => 'LV',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LV';
             $countryfind->save();
         }
@@ -2052,11 +2052,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LBN', 
                 'country_code' => '+961',
                 'iso_code' => 'LB',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LB';
             $countryfind->save();
         }
@@ -2069,11 +2069,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LSO', 
                 'country_code' => '+266',
                 'iso_code' => 'LS',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LS';
             $countryfind->save();
         }
@@ -2086,11 +2086,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LBR', 
                 'country_code' => '+231',
                 'iso_code' => 'LR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LR';
             $countryfind->save();
         }
@@ -2103,11 +2103,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LBY', 
                 'country_code' => '+218',
                 'iso_code' => 'LY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LY';
             $countryfind->save();
         }
@@ -2120,11 +2120,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LIE', 
                 'country_code' => '+423',
                 'iso_code' => 'LI',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LI';
             $countryfind->save();
         }
@@ -2137,11 +2137,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LTU', 
                 'country_code' => '+370',
                 'iso_code' => 'LT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LT';
             $countryfind->save();
         }
@@ -2154,11 +2154,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LUX', 
                 'country_code' => '+352',
                 'iso_code' => 'LU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LU';
             $countryfind->save();
         }
@@ -2171,11 +2171,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MAC', 
                 'country_code' => '+853',
                 'iso_code' => 'MO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MO';
             $countryfind->save();
         }
@@ -2188,11 +2188,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MKD', 
                 'country_code' => '+389',
                 'iso_code' => 'MK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MK';
             $countryfind->save();
         }
@@ -2205,11 +2205,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MDG', 
                 'country_code' => '+261',
                 'iso_code' => 'MG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MG';
             $countryfind->save();
         }
@@ -2221,12 +2221,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'Malawi', 
                 'prefix' => 'MWI', 
                 'country_code' => '+265',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'MW',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MW';
             $countryfind->save();
         }
@@ -2239,11 +2239,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MYS', 
                 'country_code' => '+60',
                 'iso_code' => 'MY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MY';
             $countryfind->save();
         }
@@ -2256,11 +2256,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MDV', 
                 'country_code' => '+960',
                 'iso_code' => 'MV',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MV';
             $countryfind->save();
         }
@@ -2273,11 +2273,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MLI', 
                 'country_code' => '+223',
                 'iso_code' => 'ML',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ML';
             $countryfind->save();
         }
@@ -2291,11 +2291,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MLT', 
                 'country_code' => '+356',
                 'iso_code' => 'MT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MT';
             $countryfind->save();
         }
@@ -2308,11 +2308,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MHL', 
                 'country_code' => '+692',
                 'iso_code' => 'MH',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MH';
             $countryfind->save();
         }
@@ -2325,11 +2325,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MRT', 
                 'country_code' => '+222',
                 'iso_code' => 'MR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MR';
             $countryfind->save();
         }
@@ -2342,11 +2342,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MUS', 
                 'country_code' => '+230',
                 'iso_code' => 'MU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MU';
             $countryfind->save();
         }
@@ -2359,11 +2359,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MYT', 
                 'country_code' => '+262',
                 'iso_code' => 'YT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'YT';
             $countryfind->save();
         }
@@ -2376,11 +2376,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'FSM', 
                 'country_code' => '+691',
                 'iso_code' => 'FM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'FM';
             $countryfind->save();
         }
@@ -2393,11 +2393,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MDA', 
                 'country_code' => '+373',
                 'iso_code' => 'MD',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MD';
             $countryfind->save();
         }
@@ -2411,11 +2411,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MCO', 
                 'country_code' => '+377',
                 'iso_code' => 'MC',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MC';
             $countryfind->save();
         }
@@ -2428,11 +2428,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MNG', 
                 'country_code' => '+976',
                 'iso_code' => 'MN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MN';
             $countryfind->save();
         }
@@ -2445,11 +2445,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MNE', 
                 'country_code' => '+382',
                 'iso_code' => 'ME',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ME';
             $countryfind->save();
         }
@@ -2462,11 +2462,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MSR', 
                 'country_code' => '+1-664',
                 'iso_code' => 'MS',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MS';
             $countryfind->save();
         }
@@ -2479,11 +2479,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MAR', 
                 'country_code' => '+212',
                 'iso_code' => 'MA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MA';
             $countryfind->save();
         }
@@ -2496,11 +2496,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MOZ', 
                 'country_code' => '+258',
                 'iso_code' => 'MZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MZ';
             $countryfind->save();
         }
@@ -2513,11 +2513,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MMR', 
                 'country_code' => '+95',
                 'iso_code' => 'MM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MM';
             $countryfind->save();
         }
@@ -2529,11 +2529,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NAM', 
                 'country_code' => '+264',
                 'iso_code' => 'NA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NA';
             $countryfind->save();
         }
@@ -2546,11 +2546,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NRU', 
                 'country_code' => '+674',
                 'iso_code' => 'NR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NR';
             $countryfind->save();
         }
@@ -2563,11 +2563,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NPL', 
                 'country_code' => '+977',
                 'iso_code' => 'NP',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NP';
             $countryfind->save();
         }
@@ -2580,11 +2580,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NLD', 
                 'country_code' => '+31',
                 'iso_code' => 'NL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NL';
             $countryfind->save();
         }
@@ -2597,11 +2597,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ANT', 
                 'country_code' => '+599',
                 'iso_code' => 'AN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AN';
             $countryfind->save();
         }
@@ -2614,11 +2614,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NCL', 
                 'country_code' => '+687',
                 'iso_code' => 'NC',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NC';
             $countryfind->save();
         }
@@ -2631,11 +2631,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NZL', 
                 'country_code' => '+64',
                 'iso_code' => 'NZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NZ';
             $countryfind->save();
         }
@@ -2648,11 +2648,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NER', 
                 'country_code' => '+227',
                 'iso_code' => 'NE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NE';
             $countryfind->save();
         }
@@ -2665,11 +2665,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NGA', 
                 'country_code' => '+234',
                 'iso_code' => 'NG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NG';
             $countryfind->save();
         }
@@ -2682,11 +2682,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NIU', 
                 'country_code' => '+683',
                 'iso_code' => 'NU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NU';
             $countryfind->save();
         }
@@ -2699,11 +2699,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PRK', 
                 'country_code' => '+850',
                 'iso_code' => 'KP',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KP';
             $countryfind->save();
         }
@@ -2716,11 +2716,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MNP', 
                 'country_code' => '+1-670',
                 'iso_code' => 'MP',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MP';
             $countryfind->save();
         }
@@ -2733,11 +2733,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'NOR', 
                 'country_code' => '+47',
                 'iso_code' => 'NO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'NO';
             $countryfind->save();
         }
@@ -2751,11 +2751,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'OMN', 
                 'country_code' => '+968',
                 'iso_code' => 'OM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'OM';
             $countryfind->save();
         }
@@ -2768,11 +2768,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PAK', 
                 'country_code' => '+92',
                 'iso_code' => 'PK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PK';
             $countryfind->save();
         }
@@ -2786,11 +2786,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PLW', 
                 'country_code' => '+680',
                 'iso_code' => 'PW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PW';
             $countryfind->save();
         }
@@ -2804,11 +2804,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PSE', 
                 'country_code' => '+970',
                 'iso_code' => 'PS',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PS';
             $countryfind->save();
         }
@@ -2821,11 +2821,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PAN', 
                 'country_code' => '+507',
                 'iso_code' => 'PA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PA';
             $countryfind->save();
         }
@@ -2838,11 +2838,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PNG', 
                 'country_code' => '+675',
                 'iso_code' => 'PG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PG';
             $countryfind->save();
         }
@@ -2855,11 +2855,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PRY', 
                 'country_code' => '+595',
                 'iso_code' => 'PY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PY';
             $countryfind->save();
         }
@@ -2872,11 +2872,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PER', 
                 'country_code' => '+51',
                 'iso_code' => 'PE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PE';
             $countryfind->save();
         }
@@ -2889,11 +2889,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PHL', 
                 'country_code' => '+63',
                 'iso_code' => 'PH',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PH';
             $countryfind->save();
         }
@@ -2906,11 +2906,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PCN', 
                 'country_code' => '+64',
                 'iso_code' => 'PN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PN';
             $countryfind->save();
         }
@@ -2923,11 +2923,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'POL',
                 'country_code' => '+48',
                 'iso_code' => 'PL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PL';
             $countryfind->save();
         }
@@ -2940,11 +2940,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PRT',
                 'country_code' => '+351',
                 'iso_code' => 'PT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PT';
             $countryfind->save();
         }
@@ -2957,11 +2957,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PRI',
                 'country_code' => '+1-787',
                 'iso_code' => 'PR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PR';
             $countryfind->save();
         }
@@ -2974,11 +2974,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'PRI',
                 'country_code' => '+1-939',
                 'iso_code' => 'PR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PR';
             $countryfind->save();
         }
@@ -2991,11 +2991,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'QAT',
                 'country_code' => '+974',
                 'iso_code' => 'QA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'QA';
             $countryfind->save();
         }
@@ -3008,11 +3008,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'COG',
                 'country_code' => '+242',
                 'iso_code' => 'CG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CG';
             $countryfind->save();
         }
@@ -3025,11 +3025,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'REU',
                 'country_code' => '+262',
                 'iso_code' => 'RE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'RE';
             $countryfind->save();
         }
@@ -3042,11 +3042,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ROU',
                 'country_code' => '+40',
                 'iso_code' => 'RO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'RO';
             $countryfind->save();
         }
@@ -3059,11 +3059,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'RUS',
                 'country_code' => '+7',
                 'iso_code' => 'RU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'RU';
             $countryfind->save();
         }
@@ -3076,11 +3076,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'RWA',
                 'country_code' => '+250',
                 'iso_code' => 'RW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'RW';
             $countryfind->save();
         }
@@ -3093,11 +3093,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'BLM',
                 'country_code' => '+590',
                 'iso_code' => 'BL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'BL';
             $countryfind->save();
         }
@@ -3111,11 +3111,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SHN',
                 'country_code' => '+290',
                 'iso_code' => 'SH',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SH';
             $countryfind->save();
         }
@@ -3128,11 +3128,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'KNA',
                 'country_code' => '+1-869',
                 'iso_code' => 'KN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KN';
             $countryfind->save();
         }
@@ -3145,11 +3145,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LCA',
                 'country_code' => '+1-758',
                 'iso_code' => 'LC',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LC';
             $countryfind->save();
         }
@@ -3162,11 +3162,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'MAF',
                 'country_code' => '+590',
                 'iso_code' => 'MF',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'MF';
             $countryfind->save();
         }
@@ -3179,11 +3179,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SPM',
                 'country_code' => '+508',
                 'iso_code' => 'PM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'PM';
             $countryfind->save();
         }
@@ -3196,11 +3196,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'VCT',
                 'country_code' => '+1-784',
                 'iso_code' => 'VC',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'VC';
             $countryfind->save();
         }
@@ -3213,11 +3213,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'WSM',
                 'country_code' => '+685',
                 'iso_code' => 'WS',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'WS';
             $countryfind->save();
         }
@@ -3231,11 +3231,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SMR',
                 'country_code' => '+378',
                 'iso_code' => 'SM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SM';
             $countryfind->save();
         }
@@ -3249,11 +3249,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'STP',
                 'country_code' => '+239',
                 'iso_code' => 'ST',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ST';
             $countryfind->save();
         }
@@ -3266,11 +3266,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SAU',
                 'country_code' => '+966',
                 'iso_code' => 'SA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SA';
             $countryfind->save();
         }
@@ -3283,11 +3283,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SEN',
                 'country_code' => '+221',
                 'iso_code' => 'SN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SN';
             $countryfind->save();
         }
@@ -3299,11 +3299,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SRB',
                 'country_code' => '+381',
                 'iso_code' => 'RS',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'RS';
             $countryfind->save();
         }
@@ -3316,11 +3316,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SYC',
                 'country_code' => '+248',
                 'iso_code' => 'SC',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SC';
             $countryfind->save();
         }
@@ -3333,11 +3333,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SLE',
                 'country_code' => '+232',
                 'iso_code' => 'SL',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SL';
             $countryfind->save();
         }
@@ -3350,11 +3350,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SGP',
                 'country_code' => '+65',
                 'iso_code' => 'SG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SG';
             $countryfind->save();
         }
@@ -3367,11 +3367,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SXM',
                 'country_code' => '+1-721',
                 'iso_code' => 'SX',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SX';
             $countryfind->save();
         }
@@ -3384,11 +3384,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SVK',
                 'country_code' => '+421',
                 'iso_code' => 'SK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SK';
             $countryfind->save();
         }
@@ -3401,11 +3401,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SVN',
                 'country_code' => '+386',
                 'iso_code' => 'SI',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SI';
             $countryfind->save();
         }
@@ -3418,11 +3418,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SLB',
                 'country_code' => '+677',
                 'iso_code' => 'SB',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SB';
             $countryfind->save();
         }
@@ -3435,11 +3435,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SOM',
                 'country_code' => '+252',
                 'iso_code' => 'SO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SO';
             $countryfind->save();
         }
@@ -3452,11 +3452,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ZAF',
                 'country_code' => '+27',
                 'iso_code' => 'ZA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ZA';
             $countryfind->save();
         }
@@ -3469,11 +3469,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'KOR',
                 'country_code' => '+82',
                 'iso_code' => 'KR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'KR';
             $countryfind->save();
         }
@@ -3487,11 +3487,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SSD',
                 'country_code' => '+211',
                 'iso_code' => 'SS',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SS';
             $countryfind->save();
         }
@@ -3504,11 +3504,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ESP',
                 'country_code' => '+34',
                 'iso_code' => 'ES',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ES';
             $countryfind->save();
         }
@@ -3522,11 +3522,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'LKA',
                 'country_code' => '+94',
                 'iso_code' => 'LK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'LK';
             $countryfind->save();
         }
@@ -3539,11 +3539,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SDN',
                 'country_code' => '+249',
                 'iso_code' => 'SD',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SD';
             $countryfind->save();
         }
@@ -3557,11 +3557,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SUR',
                 'country_code' => '+597',
                 'iso_code' => 'SR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SR';
             $countryfind->save();
         }
@@ -3574,11 +3574,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SJM',
                 'country_code' => '+47',
                 'iso_code' => 'SJ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SJ';
             $countryfind->save();
         }
@@ -3591,11 +3591,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SWZ',
                 'country_code' => '+268',
                 'iso_code' => 'SZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SZ';
             $countryfind->save();
         }
@@ -3608,11 +3608,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SWE',
                 'country_code' => '+46',
                 'iso_code' => 'SE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SE';
             $countryfind->save();
         }
@@ -3626,11 +3626,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'CHE',
                 'country_code' => '+41',
                 'iso_code' => 'CH',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
         }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'CH';
             $countryfind->save();
         }
@@ -3643,11 +3643,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'SYR',
                 'country_code' => '+963',
                 'iso_code' => 'SY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'SY';
             $countryfind->save();
         }
@@ -3661,11 +3661,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TWN',
                 'country_code' => '+886',
                 'iso_code' => 'TW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TW';
             $countryfind->save();
         }
@@ -3678,11 +3678,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TJK',
                 'country_code' => '+992',
                 'iso_code' => 'TJ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TJ';
             $countryfind->save();
         }
@@ -3695,11 +3695,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TZA',
                 'country_code' => '+255',
                 'iso_code' => 'TZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TZ';
             $countryfind->save();
         }
@@ -3712,11 +3712,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'THA',
                 'country_code' => '+66',
                 'iso_code' => 'TH',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TH';
             $countryfind->save();
         }
@@ -3729,11 +3729,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TGO',
                 'country_code' => '+228',
                 'iso_code' => 'TG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TG';
             $countryfind->save();
         }
@@ -3746,11 +3746,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TKL',
                 'country_code' => '+690',
                 'iso_code' => 'TK',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TK';
             $countryfind->save();
         }
@@ -3763,11 +3763,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TON',
                 'country_code' => '+676',
                 'iso_code' => 'TO',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TO';
             $countryfind->save();
         }
@@ -3780,11 +3780,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TTO',
                 'country_code' => '+1-868',
                 'iso_code' => 'TT',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TT';
             $countryfind->save();
         }
@@ -3797,11 +3797,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TUN',
                 'country_code' => '+216',
                 'iso_code' => 'TN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TN';
             $countryfind->save();
         }
@@ -3815,11 +3815,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TUR',
                 'country_code' => '+90',
                 'iso_code' => 'TR',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TR';
             $countryfind->save();
         }
@@ -3832,11 +3832,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TKM',
                 'country_code' => '+993',
                 'iso_code' => 'TM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TM';
             $countryfind->save();
         }
@@ -3849,11 +3849,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TCA',
                 'country_code' => '+1-649',
                 'iso_code' => 'TC',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TC';
             $countryfind->save();
         }
@@ -3866,11 +3866,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'TUV',
                 'country_code' => '+688',
                 'iso_code' => 'TV',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'TV';
             $countryfind->save();
         }
@@ -3883,11 +3883,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'VIR',
                 'country_code' => '+1-340',
                 'iso_code' => 'VI',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'VI';
             $countryfind->save();
         }
@@ -3900,11 +3900,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'UGA',
                 'country_code' => '+256',
                 'iso_code' => 'UG',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'UG';
             $countryfind->save();
         }
@@ -3917,11 +3917,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'UKR',
                 'country_code' => '+380',
                 'iso_code' => 'UA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'UA';
             $countryfind->save();
         }
@@ -3934,11 +3934,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ARE',
                 'country_code' => '+971',
                 'iso_code' => 'AE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'AE';
             $countryfind->save();
         }
@@ -3951,11 +3951,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'GBR',
                 'country_code' => '+44',
                 'iso_code' => 'GB',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'GB';
             $countryfind->save();
         }
@@ -3968,11 +3968,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'URY',
                 'country_code' => '+598',
                 'iso_code' => 'UY',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'UY';
             $countryfind->save();
         }
@@ -3986,11 +3986,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'UZB',
                 'country_code' => '+998',
                 'iso_code' => 'UZ',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'UZ';
             $countryfind->save();
         }
@@ -4004,11 +4004,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'VUT',
                 'country_code' => '+678',
                 'iso_code' => 'VU',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'VU';
             $countryfind->save();
         }
@@ -4022,11 +4022,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'VAT',
                 'country_code' => '+379',
                 'iso_code' => 'VA',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'VA';
             $countryfind->save();
         }
@@ -4040,11 +4040,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'VEN',
                 'country_code' => '+58',
                 'iso_code' => 'VE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'VE';
             $countryfind->save();
         }
@@ -4057,11 +4057,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'VNM',
                 'country_code' => '+84',
                 'iso_code' => 'VN',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'VN';
             $countryfind->save();
         }
@@ -4074,11 +4074,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'WLF',
                 'country_code' => '+681',
                 'iso_code' => 'WF',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'WF';
             $countryfind->save();
         }
@@ -4091,12 +4091,12 @@ class CountryTableSeeder extends Seeder
                 'name'    => 'Western Sahara', 
                 'prefix' => 'ESH',
                 'country_code' => '+212',
-                'order' => '2',
+                'orderb' => '2',
                 'iso_code' => 'EH',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'EH';
             $countryfind->save();
         }
@@ -4109,11 +4109,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'YEM',
                 'country_code' => '+967',
                 'iso_code' => 'YE',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'YE';
             $countryfind->save();
         }
@@ -4126,11 +4126,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ZMB',
                 'country_code' => '+260',
                 'iso_code' => 'ZM',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ZM';
             $countryfind->save();
         }
@@ -4143,11 +4143,11 @@ class CountryTableSeeder extends Seeder
                 'prefix' => 'ZWE',
                 'country_code' => '+263',
                 'iso_code' => 'ZW',
-                'order' => '2',
+                'orderb' => '2',
                 'active' => true
             ]);
        }else{
-            $countryfind->order = 2;
+            $countryfind->orderb = 2;
             $countryfind->iso_code = 'ZW';
             $countryfind->save();
         }
