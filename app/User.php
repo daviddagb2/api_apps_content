@@ -11,6 +11,8 @@ class User extends Authenticatable
 {
     use HasApiTokens, Notifiable;
 
+    protected $dateFormat = 'Y-m-d';
+    
     /**
      * The attributes that are mass assignable.
      *
@@ -36,5 +38,9 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'created_at' => 'datetime:Y-m-d h:m:s',
+        'updated_at' => 'datetime:Y-m-d h:m:s',
     ];
+
+    
 }
